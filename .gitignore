@@ -1,0 +1,11 @@
+# Backup files
+*~
+*.bak
+.\#*
+\#*
+
+# Java binaries
+*.class
+*.jar
+*.zip
+

@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>uk.sky.ott.pde.tests.cassandra</groupId>
+  <artifactId>driver-test</artifactId>
+  <packaging>jar</packaging>
+  <name>Driver Test</name>
+
+  <properties>
+    <driver.version>4.14.1</driver.version>
+  </properties>
+  
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.datastax.oss</groupId>
+        <artifactId>java-driver-core</artifactId>
+        <version>${driver.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
