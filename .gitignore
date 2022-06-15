@@ -9,3 +9,9 @@
 *.jar
 *.zip
 
+# Java build
+target
+
+# Log files
+*.log
+
