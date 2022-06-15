@@ -15,3 +15,8 @@ target
 # Log files
 *.log
 
+# Temporary files
+tmp
+temp
+
+
